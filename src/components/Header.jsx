@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <h1>Clay Andemar</h1>
-      <h2>Full Stack Developer</h2>
+      <h2>Full Stack Developer | Minnesota</h2>
       <img src={image} alt="Profile of Clay Andemar" width="100px" height="100px"></img>
     </header>
   )
