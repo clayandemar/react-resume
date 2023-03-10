@@ -1,34 +1,26 @@
-import React from 'react';
-// Pages
-import Projects from '../src/pages/Projects';
-// Components
-import Profile from './components/Profile.jsx';
-import Footer from './components/Footer.jsx';
-import Header from './components/Header.jsx';
-import Navigation from './components/Navigation.jsx';
-//CSS
-import './App.css';
-//Font
-
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home, AboutMe, Projects } from "./pages";
+import { Header, Wrapper, Footer } from "./components"
+import image from "./components/images/Clay 2.jpg"
 
 
-
-
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./styles/global.css"
 
 function App() {
   return (
-    <div className="App">
-      
-      <Navigation />
-      <Header />
-      <Profile />
-      <Footer />
-
-    </div>
+    <BrowserRouter>
+      <Wrapper>
+        <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Analytics" element={<AboutMe />} />
+            <Route path="/Transactions" element={<Projects />} />
+          </Routes>
+        <Footer />
+      </Wrapper>
+    </BrowserRouter>
   );
 }
 

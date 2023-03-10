@@ -1,0 +1,122 @@
+:root {
+  
+}
+
+body {
+  width:100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, li, td, th, blockquote, label, input, textarea, select {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+ p, li, td, th, blockquote, label, input, textarea, select {
+  font-size: 1.3rem;
+  line-height: 180%;
+} 
+
+p {
+  margin-bottom: 1rem;
+}
+
+
+
+.page-title {
+  /* border: 5px solid red; */
+  color: white;
+  text-align: right;
+}
+
+
+
+/* HOME PAGE */
+
+.home-items {
+  margin-top: 12.5%;
+  margin-bottom: auto;
+}
+
+.profile-pic {
+  border: 8px solid orange;
+  outline: 8px solid red;
+  height:200px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+
+  .name-header {
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+
+  .developer-header {
+    color: gray;
+    text-align: center;
+
+  }
+
+  footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    border: 4px solid gray;
+   
+    text-align: center;
+  }
+
+
+
+
+/* ABOUT ME PAGE  */
+
+
+#about-me {
+  text-align: left;
+  border: 5px solid gray;
+  width: 25%;
+  text-align: center;
+}
+
+.about-me {
+  
+  height: 200px;
+  width: 50%;
+}
+
+#education {
+  text-align: right;
+  border: 5px solid gray;
+  width: 25%;
+  text-align: center;
+}
+.education {
+  height: 200px;
+  width: 50%;
+}
+
+.clabby {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: 75%;
+  margin-right: auto;
+
+
+}
+
+
+
+
