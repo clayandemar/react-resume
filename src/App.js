@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, AboutMe, Projects } from "./pages";
-import { Header, Wrapper, Footer } from "./components"
+import { Header, Wrapper, Footer } from "./components";
 
 
 
@@ -10,17 +10,17 @@ import "./styles/global.css"
 
 function App() {
   return (
-    <BrowserRouter>
+ 
       <Wrapper>
         <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Analytics" element={<AboutMe />} />
-            <Route path="/Transactions" element={<Projects />} />
+            <Route path="Home" element={<Home />} />
+            <Route path="AboutMe" element={<AboutMe />} />
+            <Route path="Projects" element={<Projects />} />
           </Routes>
         <Footer />
       </Wrapper>
-    </BrowserRouter>
+
   );
 }
 
