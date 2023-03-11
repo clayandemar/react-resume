@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.5f0c8b1d.css",
-    "main.js": "/react-resume/static/js/main.3483c42e.js",
+    "main.js": "/react-resume/static/js/main.b2b2a940.js",
     "static/media/game.png": "/react-resume/static/media/game.f2a7cddcc0decf595f99.png",
     "static/media/Clay 2.jpg": "/react-resume/static/media/Clay 2.0c44fd1819a34c23f8ab.jpg",
     "static/media/readme.png": "/react-resume/static/media/readme.4fd6c1bdc08a26235052.png",
@@ -10,10 +10,10 @@
     "static/media/background.webp": "/react-resume/static/media/background.58fb09d1c017a32620c4.webp",
     "index.html": "/react-resume/index.html",
     "main.5f0c8b1d.css.map": "/react-resume/static/css/main.5f0c8b1d.css.map",
-    "main.3483c42e.js.map": "/react-resume/static/js/main.3483c42e.js.map"
+    "main.b2b2a940.js.map": "/react-resume/static/js/main.b2b2a940.js.map"
   },
   "entrypoints": [
     "static/css/main.5f0c8b1d.css",
-    "static/js/main.3483c42e.js"
+    "static/js/main.b2b2a940.js"
   ]
 }
