@@ -26,7 +26,7 @@
   Clay Andemar
 
 ## Deployed
-  ![Link](https://clayandemar.github.io/react-resume/#/Home)
+  [Link](https://clayandemar.github.io/react-resume/#/Home)
 
   ### Screenshot
   ![Screenshot](./src/components/images/screen1.png)
