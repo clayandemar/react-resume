@@ -1,5 +1,5 @@
-*{
- background-image: url("../components/images/background.webp");
+* {
+  background-image: url("../components/images/background.webp");
 }
 
 .backgroundPic {
@@ -12,23 +12,50 @@
 }
 
 body {
-  width:100%;
+  width: 100%;
 }
 
 
-h1, h2, h3, h4, h5, h6, p, li, td, th, blockquote, label, input, textarea, select {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td,
+th,
+blockquote,
+label,
+input,
+textarea,
+select {
   color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
- p, li, td, th, blockquote, label, input, textarea, select {
+p,
+li,
+td,
+th,
+blockquote,
+label,
+input,
+textarea,
+select {
   font-size: 1.3rem;
   line-height: 180%;
- 
-} 
+
+}
 
 p {
   margin-bottom: 1rem;
@@ -54,46 +81,67 @@ p {
 .profile-pic {
   border: 8px solid orange;
   outline: 8px solid red;
-  height:200px;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
-  }
 
-  .name-header {
-    color:white;
-    text-align: center;
-    padding-top: 20px;
-  }
+}
+
+.name-header {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
 
 
-  .developer-header {
-    color: gray;
-    text-align: center;
+.developer-header {
+  color: gray;
+  text-align: center;
 
-  }
+}
 
-  footer {
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    border: 4px solid gray;
-   
-    text-align: center;
-  }
+footer {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  border: 4px solid gray;
+  text-align: center;
+}
 
+.links {
+  list-style-type: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer .email,
+.linkedin,
+.github {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10%;
+  width: auto;
+  margin-right: 0.5%;
+  color: white;
+  padding-left: 0;
+  margin-left: 0
+}
 
 
 
 /* ABOUT ME PAGE  */
 
 .flexbox-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -101,24 +149,25 @@ p {
 
 #about-me {
   color: white;
-  align-self:center ;
+  align-self: center;
   padding: 10px;
 }
 
 .about-me {
-text-align: center;
+  text-align: center;
   width: 1000px;
   align-self: center;
 }
 
 #education {
   align-self: center;
-  color:white;
-  
+  color: white;
+
   align-self: center;
 }
+
 .education {
- text-align: center;
+  text-align: center;
   width: 1000px;
   align-self: center;
 }
@@ -126,7 +175,7 @@ text-align: center;
 .clabby {
   border: 2px solid orange;
   outline: 2px solid red;
- 
+
   width: 250px;
   height: auto;
   align-self: center;
@@ -135,7 +184,7 @@ text-align: center;
 /* PAGE TITLE  */
 
 .projects-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
@@ -146,15 +195,16 @@ text-align: center;
   width: 400px;
   height: 500px;
   border: 2px solid gray;
-  
+
 }
+
 .card-body {
   background-color: black;
-  
+
 }
 
 .projects-title {
-  color:white;
+  color: white;
   text-align: center;
   padding-top: 20px;
 }
@@ -165,8 +215,8 @@ text-align: center;
 }
 
 .card .btn {
-  color:white;
+  color: white;
   border: 2px solid gray;
- 
+
   align-self: center;
 }
