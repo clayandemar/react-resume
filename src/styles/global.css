@@ -1,5 +1,14 @@
-:root {
-  
+*{
+ background-image: url("../components/images/background.webp");
+}
+
+.backgroundPic {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 body {
@@ -18,16 +27,17 @@ h1, h2, h3, h4, h5, h6 {
  p, li, td, th, blockquote, label, input, textarea, select {
   font-size: 1.3rem;
   line-height: 180%;
+ 
 } 
 
 p {
   margin-bottom: 1rem;
+
 }
 
 
 
 .page-title {
-  /* border: 5px solid red; */
   color: white;
   text-align: right;
 }
@@ -82,41 +92,81 @@ p {
 
 /* ABOUT ME PAGE  */
 
+.flexbox-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 #about-me {
-  text-align: left;
-  border: 5px solid gray;
-  width: 25%;
-  text-align: center;
+  color: white;
+  align-self:center ;
+  padding: 10px;
 }
 
 .about-me {
-  
-  height: 200px;
-  width: 50%;
+text-align: center;
+  width: 1000px;
+  align-self: center;
 }
 
 #education {
-  text-align: right;
-  border: 5px solid gray;
-  width: 25%;
-  text-align: center;
+  align-self: center;
+  color:white;
+  
+  align-self: center;
 }
 .education {
-  height: 200px;
-  width: 50%;
+ text-align: center;
+  width: 1000px;
+  align-self: center;
 }
 
 .clabby {
+  border: 2px solid orange;
+  outline: 2px solid red;
+ 
   width: 250px;
   height: auto;
-  display: block;
-  margin-left: 75%;
-  margin-right: auto;
-
-
+  align-self: center;
 }
 
+/* PAGE TITLE  */
 
+.projects-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+}
 
+.card {
+  width: 400px;
+  height: 500px;
+  border: 2px solid gray;
+  
+}
+.card-body {
+  background-color: black;
+  
+}
 
+.projects-title {
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-image {
+  width: 400px;
+  height: 300px;
+}
+
+.card .btn {
+  color:white;
+  border: 2px solid gray;
+ 
+  align-self: center;
+}
