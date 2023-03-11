@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6594324.css",
+    "main.js": "/static/js/main.93ef76ec.js",
+    "static/media/game.png": "/static/media/game.f2a7cddcc0decf595f99.png",
+    "static/media/Clay 2.jpg": "/static/media/Clay 2.0c44fd1819a34c23f8ab.jpg",
+    "static/media/readme.png": "/static/media/readme.4fd6c1bdc08a26235052.png",
+    "static/media/clabby.jpeg": "/static/media/clabby.d73d0ac09f4949693e62.jpeg",
+    "static/media/note.png": "/static/media/note.0772eedefa4f41e7f022.png",
+    "static/media/background.webp": "/static/media/background.58fb09d1c017a32620c4.webp",
+    "index.html": "/index.html",
+    "main.a6594324.css.map": "/static/css/main.a6594324.css.map",
+    "main.93ef76ec.js.map": "/static/js/main.93ef76ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6594324.css",
+    "static/js/main.93ef76ec.js"
+  ]
+}
